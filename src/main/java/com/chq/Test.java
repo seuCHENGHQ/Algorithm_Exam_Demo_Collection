@@ -165,6 +165,9 @@ public class Test {
         char test = 1 + '0';
         System.out.println(test);
         PriorityQueue<Integer> queue = new PriorityQueue<>();
+        while (true) {
+            System.out.println("test");
+        }
     }
 
     public static List<Integer> solution(List<Integer> list) {
